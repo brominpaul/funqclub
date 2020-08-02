@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172855705-1"></script>
@@ -999,29 +998,5 @@
       }  
     }
         </script>
-
-<script>
-    function postToGoogle() {
-                    
-        
-          $.ajax({
-            url: "https://docs.google.com/forms/d/e/1FAIpQLSeI4906NBQeWHS29BI3Mm2gY59n9UAKn1BaydiU2TBUgGq0MA/formResponse?",
-                        data: {"entry.532204740": field1, "entry.1368060602": field2, "entry.1065876966": field3, "entry.743058456": field4, "entry.1116483917": field5, "entry.1490839859" field6 },
-                        type: "POST",
-                        dataType: "xml",
-                        success: function(d)
-                        {
-                        },
-                        error: function(x, y, z)
-                            {
-    
-                                $('#success-msg').show();
-                                $('#contact-form').hide();
-                                
-                            }
-                    });
-                    return false;
-                }
-    </script> 
 </body>
 </html>
