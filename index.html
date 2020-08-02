@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172855705-1"></script>
@@ -50,7 +51,7 @@
             </ul>
         </div>
         <div id="contactform">
-            <form id="contact-form" class="contact-form" action="mailto:ricky@paysack.com" method="post">
+            <form id="contact-form"class="contact-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeI4906NBQeWHS29BI3Mm2gY59n9UAKn1BaydiU2TBUgGq0MA/formResponse" method="POST">
                 <div class="contact-rows">
                     <div class="col-6" style="padding-left: 0px !important">
                        <h3>Contact </h3> 
@@ -64,42 +65,42 @@
                 <ul>
                 
                     <li class="fname">
-                        <input type="text" class="input-name" name="FirstName" placeholder="Saurabh" spellcheck="false" min-length="2" max-length="40" required />
+                        <input type="text" class="input-name" name="entry.532204740" placeholder="Saurabh" spellcheck="false" min-length="2" max-length="40" required />
                         <label for="name" >First Name</label>
                         <span class="notification"></span>
                         <span class="required"><strong><small><em> (required)</em></small></strong></span>
                         <span class="char-counter"></span>
                     </li>
                     <li class="lname">
-                        <input type="text" class="input-name" name="LastName" placeholder="Kumar" spellcheck="false" min-length="2" max-length="40" required />
+                        <input type="text" class="input-name" name="entry.1368060602" placeholder="Kumar" spellcheck="false" min-length="2" max-length="40" required />
                         <label for="name" class="fsize">Last Name</label>
                         <span class="notification"></span>
                         <span class="required"><strong><small><em> (required)</em></small></strong></span>
                         <span class="char-counter"></span>
                     </li>
                     <li class="phone">
-                        <input type="tel" class="input-name" name="Phone" placeholder="9991102200" spellcheck="false" min-length="2" max-length="10" pattern="[0-9]{10}" required />
+                        <input type="tel" class="input-name" name="entry.1065876966" placeholder="9991102200" spellcheck="false" min-length="2" max-length="10" pattern="[0-9]{10}" required />
                         <label for="name" class="fsize">Phone</label>
                         <span class="notification"></span>
                         <span class="required"><strong><small><em> (required)</em></small></strong></span>
                         <span class="char-counter"></span>
                         </li>
                         <li class="email">
-                        <input type="email" class="input-email" name="Email" placeholder="my@email.com" spellcheck="false" min-length="2" max-length="30" required />
+                        <input type="email" class="input-email" name="entry.743058456" placeholder="my@email.com" spellcheck="false" min-length="2" max-length="30" required />
                         <label for="email" class="fsize">Email</label>
                         <span class="notification"></span>
                         <span class="required"><strong><small><em> (required)</em></small></strong></span>
                         <span class="char-counter"></span>
                         </li>
                         <li class="cname">
-                        <input type="text" class="input-name" href="#company" name="Company Name" placeholder="ABC Limited" spellcheck="false" min-length="2" max-length="40" required />
+                        <input type="text" class="input-name" href="#company" name="entry.1116483917" placeholder="ABC Limited" spellcheck="false" min-length="2" max-length="40" required />
                         <label for="name" id="company" class="fsize">Company Name</label>
                         <span class="notification"></span>
                         <span class="required"><strong><small><em> (required)</em></small></strong></span>
                         <span class="char-counter"></span>
                     </li>
                     <li class="city">
-                        <input type="text" class="input-name " name="City" placeholder="Bangalore" spellcheck="false" min-length="2" max-length="15" required />
+                        <input type="text" class="input-name " name="entry.1490839859" placeholder="Bangalore" spellcheck="false" min-length="2" max-length="15" required />
                         <label for="name" class="fsize">City</label>
                         <span class="notification"></span>
                         <span class="required"><strong><small><em> (required)</em></small></strong></span>
@@ -108,11 +109,12 @@
                 
                 
                     <div class="form-btn">
-                    <input id="input-submit" class="btn btn-outline-yellow comment-pad" type="submit" value="Submit" id="submit" />   
+                    <input id="submit" class="btn btn-outline-yellow comment-pad" type="submit" value="Submit" />   
                     </div>
 
                 </ul>
             </form>
+            <h3 id="success-msg" style="text-align: center !important; margin-top:190px !important; display:none; color:#fff"> Your Request has been posted to Google Spreadsheet</h3>
         </div>
     </nav>
 </header>
@@ -255,21 +257,19 @@
         <h3 class="text-center">What are the benefits of Funq</h3>
         <div style="width: 150px;" class="container sub-head"></div>
         <br>
-        <div class="row">
-            <div class="column col-sm-4 img-con">
-                <div class="custom-contact-continer">
-                    <div class="d-flex justify-content-center">
-                        <h5>Pay for your kid's allowance from a simple app. Instant transfer</h5>
-                    </div>     
-                </div>
-                
-                <br>
-                <div class= "card shadow mb-5">
-                <img src="assets/images/benefits-of-funq1.png" alt="Api Platform" style="width:75%">
-                </div>
-                <br><br>
+            <div class="column img-con">
+                    <div class="custom-contact-continer">
+                        <div class="d-flex justify-content-center">
+                            <h5>Pay for your kid's allowance from a simple app. Instant transfer</h5>
+                        </div>     
+                    </div>
+                    <br>
+                    <div class= "card shadow mb-5 ">
+                        <img src="assets/images/benefits-of-funq1.png" alt="Api Platform" style="width:75%">
+                    </div>
+                    <br><br>
             </div>              
-            <div class="column col-4 img-con">
+            <div class="column img-con">
                 <div class="custom-contact-continer">
                     <div class="d-flex justify-content-center">
                         <h5>Get real-time notifications of each transaction</h5>
@@ -283,7 +283,7 @@
                 <br><br>
             </div>
 
-            <div class="column col-4 img-con">
+            <div class="column col-sm-6 img-con">
                 <div class="custom-contact-continer">
                     <div class="d-flex justify-content-center">
                         <h5>Kids learn the art of savings, earnings and wise spendings</h5>
@@ -296,9 +296,8 @@
                 </div>
                 <br><br>
             </div>
-        </div>
-        <div class="row">
-            <div class="column col-4 img-con">
+        
+            <div class="column img-con">
                 <div class="custom-contact-continer">
                     <div class="d-flex justify-content-center">
                         <h5>Single dashboard for insights on spending, earning, and saving</h5>
@@ -311,7 +310,7 @@
                 </div>
                 <br><br>
             </div>              
-            <div class="column col-4 img-con">
+            <div class="column img-con">
                 <div class="custom-contact-continer">
                     <div class="d-flex justify-content-center pb-4">
                         <h5>Card controls at your fingertips</h5>
@@ -325,7 +324,7 @@
                 <br><br>
             </div>
 
-            <div class="column col-4 img-con">
+            <div class="column img-con">
                 <div class="custom-contact-continer">
                     <div class="d-flex justify-content-center pb-4">
                         <h5>Bank-grade security. Safe and secure</h5>
@@ -338,7 +337,7 @@
                 </div>
                 <br><br>
             </div>
-        </div>
+        <!-- row -->
         
     </div>
 </div>
@@ -1000,5 +999,29 @@
       }  
     }
         </script>
+
+<script>
+    function postToGoogle() {
+                    
+        
+          $.ajax({
+            url: "https://docs.google.com/forms/d/e/1FAIpQLSeI4906NBQeWHS29BI3Mm2gY59n9UAKn1BaydiU2TBUgGq0MA/formResponse?",
+                        data: {"entry.532204740": field1, "entry.1368060602": field2, "entry.1065876966": field3, "entry.743058456": field4, "entry.1116483917": field5, "entry.1490839859" field6 },
+                        type: "POST",
+                        dataType: "xml",
+                        success: function(d)
+                        {
+                        },
+                        error: function(x, y, z)
+                            {
+    
+                                $('#success-msg').show();
+                                $('#contact-form').hide();
+                                
+                            }
+                    });
+                    return false;
+                }
+    </script> 
 </body>
 </html>
