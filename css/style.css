@@ -348,6 +348,13 @@ h4.bold {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767.98px) {
+  .custom-container {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   #articles {
     background-color: #fafafa !important;
   }
@@ -407,10 +414,6 @@ h4.bold {
   .article-card-even {
     margin-right: -1% !important;
   }
-}
-h5:hover,
-h5:active {
-  /* text-shadow: 1px 1px .25px #808080; */
 }
 
 .author-name {
