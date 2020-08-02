@@ -8,7 +8,8 @@
     <link rel='stylesheet' href='css/all.min.css'>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+    
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172855705-1"></script>
 <script>
@@ -50,7 +51,7 @@
         </div>
         <div id="contactform">
             <form id="contact-form" class="contact-form" action="mailto:ricky@paysack.com" method="post">
-                <div class="rows">
+                <div class="contact-rows">
                     <div class="col-6" style="padding-left: 0px !important">
                        <h3>Contact </h3> 
                     </div>
@@ -91,8 +92,8 @@
                         <span class="char-counter"></span>
                         </li>
                         <li class="cname">
-                        <input type="text" class="input-name" name="Company Name" placeholder="ABC Limited" spellcheck="false" min-length="2" max-length="40" required />
-                        <label for="name" class="fsize">Company Name</label>
+                        <input type="text" class="input-name" href="#company" name="Company Name" placeholder="ABC Limited" spellcheck="false" min-length="2" max-length="40" required />
+                        <label for="name" id="company" class="fsize">Company Name</label>
                         <span class="notification"></span>
                         <span class="required"><strong><small><em> (required)</em></small></strong></span>
                         <span class="char-counter"></span>
@@ -218,7 +219,7 @@
         <br>
         <div class="row">
             <div class="column col-4 img-con">
-                <h4>For Banks/Fintechs</h4>
+                <h5>For Banks/Fintechs</h5>
                 <div style="width: 150px;" class="container sub-head"></div>
                 <br>
                 <img src="assets/images/Neo-for-stud1.png" alt="Api Platform" style="width:75%">
@@ -227,7 +228,7 @@
             </div>              
 
             <div class="column col-4 img-con">
-                <h4>For Students</h4>
+                <h5>For Students</h5>
                 <div style="width: 150px;" class="container sub-head"></div>
                 <br>
                 <img src="assets/images/Neo-for-stud2.png" alt="Forest" style="width:75%">
@@ -236,7 +237,7 @@
             </div>
 
             <div class="column col-4 img-con">
-                <h4>For Parents</h4>
+                <h5>For Parents</h5>
                 <div style="width: 150px;" class="container sub-head"></div>
                 <br>
                 <img src="assets/images/Neo-for-stud3.png" alt="Forest" style="width:75%">
@@ -256,16 +257,20 @@
         <br>
         <div class="row">
             <div class="column col-4 img-con">
-                <h5>Pay for your kid's allowance from</h5><h5>a simple app. Instant transfer</h5>
+                <div class="custom-contact-continer">
+                    <div class="d-flex justify-content-center">
+                <h5>Pay for your kid's allowance from a simple app. Instant transfer</h5>
+                    </div>     
+                </div>
                 <div style="width: 150px;" class="container sub-head"></div>
                 <br>
-                <div class= "card shadow  mb-5 bg-white rounded-lg">
+                <div class= "card shadow mb-5">
                 <img src="assets/images/benefits-of-funq1.png" alt="Api Platform" style="width:75%">
                 </div>
                 <br><br>
             </div>              
             <div class="column col-4 img-con">
-                <h5>Get real-time notifications of</h5><h5>each transaction</h5>
+                <h5>Get real-time notifications of each transaction</h5>
                 <div style="width: 150px;" class="container sub-head"></div>
                 <br>
                 <div class= "card shadow  mb-5 bg-white rounded">
@@ -275,7 +280,7 @@
             </div>
 
             <div class="column col-4 img-con">
-                <h5>Kids learn the art of savings,</h5><h5>earnings and wise spendings</h5>
+                <h5>Kids learn the art of savings, earnings and wise spendings</h5>
                 <div style="width: 150px;" class="container sub-head"></div>
                 <br>
                 <div class= "card shadow  mb-5 bg-white rounded">
@@ -286,7 +291,7 @@
         </div>
         <div class="row">
             <div class="column col-4 img-con">
-                <h5>Single dashboard for insights on</h5><h5>spending,erning, and saving</h5>
+                <h5>Single dashboard for insights on spending, earning, and saving</h5>
                 <div style="width: 150px;" class="container sub-head"></div>
                 <br>
                 <div class= "card shadow  mb-5 bg-white rounded">
@@ -295,7 +300,7 @@
                 <br><br>
             </div>              
             <div class="column col-4 img-con">
-                <h5>Card controls at your</h5><h5>fingertips</h5>
+                <h5>Card controls at your fingertips</h5>
                 <div style="width: 150px;" class="container sub-head"></div>
                 <br>
                 <div class= "card shadow  mb-5 bg-white rounded">
@@ -305,7 +310,7 @@
             </div>
 
             <div class="column col-4 img-con">
-                <h5>Bank-grade security.</h5><h5>Safe and secure</h5>
+                <h5>Bank-grade security. Safe and secure</h5>
                 <div style="width: 150px;" class="container sub-head"></div>
                 <br>
                 <div class= "card shadow  mb-5 bg-white rounded">
@@ -414,75 +419,51 @@
             <a id="test" href="#"><button type="submit" class="outline black-yellow">Contact Us</button><a>
           </div>
       </div>
-    </div>
-</div>
-<!-- contact-form -->
-    <div id="contactform">
-      <form id="contact-form" class="contact-form" action="mailto:ricky@paysack.com" method="post">
-          <div class="rows">
-              <div class="c" style="padding-left: 0px !important;">
-                 <h4>Contact </h4> 
-              </div>
-              <div class="col-6">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-          </div>
-        
-        <ul>
-      
-            <li class="fname">
-                <input type="text" class="input-name" name="FirstName" placeholder="Sourabh" spellcheck="false" min-length="2" max-length="40" required />
-                <label for="name" >First Name</label>
-                <span class="notification"></span>
-                <span class="required"><strong><small><em> (required)</em></small></strong></span>
-                <span class="char-counter"></span>
-            </li>
-            <li class="lname">
-                <input type="text" class="input-name" name="LastName" placeholder="Kumar" spellcheck="false" min-length="2" max-length="40" required />
-                <label for="name" class="fsize">Last Name</label>
-                <span class="notification"></span>
-                <span class="required"><strong><small><em> (required)</em></small></strong></span>
-                <span class="char-counter"></span>
-            </li>
-            <li class="phone">
-                <input type="tel" class="input-name" name="Phone" placeholder="9991102200" spellcheck="false" min-length="2" max-length="10" pattern="[0-9]{10}" required />
-                <label for="name" class="fsize">Phone</label>
-                <span class="notification"></span>
-                <span class="required"><strong><small><em> (required)</em></small></strong></span>
-                <span class="char-counter"></span>
-                </li>
-              <li class="email">
-                <input type="email" class="input-email" name="Email" placeholder="ie. my@email.com" spellcheck="false" min-length="2" max-length="30" required />
-                <label for="email" class="fsize">Email</label>
-                <span class="notification"></span>
-                <span class="required"><strong><small><em> (required)</em></small></strong></span>
-                <span class="char-counter"></span>
-              </li>
-              <li class="cname">
-                <input type="text" class="input-name" name="Company Name" placeholder="ABC Limited" spellcheck="false" min-length="2" max-length="40" required />
-                <label for="name" class="fsize">Company Name</label>
-                <span class="notification"></span>
-                <span class="required"><strong><small><em> (required)</em></small></strong></span>
-                <span class="char-counter"></span>
-            </li>
-            <li class="city">
-                <input type="text" class="input-name " name="City" placeholder="Bangalore" spellcheck="false" min-length="2" max-length="15" required />
-                <label for="name" class="fsize">City</label>
-                <span class="notification"></span>
-                <span class="required"><strong><small><em> (required)</em></small></strong></span>
-                <span class="char-counter"></span>
-            </li>
-      <!-- </ul> -->
-      
-      <div class="form-btn">
-      <input id="input-submit" class="btn btn-outline-yellow comment-pad" type="submit" value="Submit" id="submit" />
-      <!-- <input id="input-submit" class="input-submit btn btn-outline-yellow" type="submit" value="Submit" id="submit" /> -->
-
-      </div>
-    </ul>
-      </form>
-      </div>
+      <!-- Grid row-->
+      <div class="rows">
   
+        <!-- Grid column -->
+        <div class="col-md-12 py-1 d-flex justify-content-center">
+          <div class="mb-1 flex-center">
+  
+            <!-- Facebook -->
+            <a class="fb-ic a-footer">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Pinterest-->
+            <a class="pin-ic">
+              <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row-->
+    </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">&#xA9; 2020 Copyright:
+            <a href="http://funq.club/"> funq.club</a>
+          </div>
+          <!-- Copyright -->
+</div>
+
 
       <script id="rendered-js">
         var form = $("#contact-form");
@@ -1008,6 +989,5 @@
       }  
     }
         </script>
-
 </body>
 </html>
