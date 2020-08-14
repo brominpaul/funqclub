@@ -555,7 +555,6 @@ button {
   display: none;
   position: fixed;
   margin: 0;
-  padding: 0;
   left: 0;
   top: 0;
   height: 100%;
@@ -564,7 +563,7 @@ button {
 }
 
 .contact-form {
-  top: 75px;
+  top: 40px;
   border-radius: 10px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
   margin-top: 50px;
